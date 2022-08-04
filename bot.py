@@ -21,7 +21,7 @@ spam_chats = []
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
   await event.reply(
-"""Etiket Botumuz Suanda Aktif @sohbetf
+"""Etiket Botumuz Suanda Aktif @mynameiscahil
 Merhaba Botu Gruplarınıza Ekleyin ! Reklam vermek icin yazın
 *𝐇𝐄𝐘! ,*
 ┏━━━━━━━━━━━━━━━━
@@ -35,22 +35,22 @@ Merhaba Botu Gruplarınıza Ekleyin ! Reklam vermek icin yazın
     link_preview=False,
     buttons=(
        [
-        Button.url(' support', 'https://t.me/sohbetf'),
-        Button.url('iletisim', 'https://t.me/sohbetf')
+        Button.url(' support', 'https://t.me/mynameiscahil'),
+        Button.url('iletisim', 'https://t.me/mynameiscahil')
     ],
     )
   )
 
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "COMMANDS:@all,/cancel. @sohbetf @all : Tüm Kisileri Etiketler. /cancel : durdur @sohbetf"
+  helptext = "COMMANDS:@all,/cancel. @mynameiscahil @all : Tüm Kisileri Etiketler. /cancel : durdur @mynameiscahil"
   await event.reply(
     helptext,
     link_preview=False,
     buttons=(
       [
-        Button.url(' support', 'https://t.me/sohbetf'),
-        Button.url('iletisim', 'https://t.me/sohbetf')
+        Button.url(' support', 'https://t.me/myna'),
+        Button.url('iletisim', 'https://t.me/mynameiscahil')
       ]
     )
   )
